@@ -21,6 +21,7 @@ class Application
         resp.write "#{item}\n"
       end
     elsif req.path.match(/path/)
+      
     else
       resp.write "Path Not Found"
     end
